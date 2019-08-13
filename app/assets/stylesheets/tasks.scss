@@ -1,0 +1,19 @@
+body {
+  display: grid;
+  justify-content: center;
+}
+
+.btn {
+    text-color: white;
+    background-color: black;
+    border-color: #8064A2;
+  }
+
+  .list-group-it {
+    list-style: none;
+    text-decoration: none;
+  }
+
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/

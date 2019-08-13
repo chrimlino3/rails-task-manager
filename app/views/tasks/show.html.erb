@@ -1,0 +1,13 @@
+
+
+  <li> <%= @task.title + " " + @task.details %> </li>
+
+<p class="btn btn-default">
+<%= link_to "Go to the list", tasks_path %></p>
+
+<p class="btn btn-default">
+<%= link_to "Edit this task", edit_task_path %></p>
+
+<%= link_to "Delete", destroy_task_path(@task),
+      method: :delete,
+      data: { confirm: "Are you sure?" } %>
